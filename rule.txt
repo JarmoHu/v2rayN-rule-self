@@ -1,0 +1,39 @@
+[
+  {
+    "inboundTag": [
+      "http"
+    ],
+    "outboundTag": "direct",
+    "domain": [
+      "geoip:cn",
+      "geosite:category-games@cn",
+      "domain:edu.cn",
+      "domain:steamcontent.com"
+    ]
+  },
+  {
+    "inboundTag": [
+      "http"
+    ],
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:greatfire",
+      "geosite:gfw",
+      "geosite:steam"
+    ]
+  },
+  {
+    "port": "0-65535",
+    "inboundTag": [
+      "http"
+    ],
+    "outboundTag": "direct"
+  },
+  {
+    "port": "0-65535",
+    "inboundTag": [
+      "socks"
+    ],
+    "outboundTag": "proxy"
+  }
+]
