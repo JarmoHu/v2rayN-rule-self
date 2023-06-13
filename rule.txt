@@ -1,14 +1,18 @@
 [
   {
-    "inboundTag": [],
+    "id": "5298429128149380054",
+    "port": "",
     "outboundTag": "block",
+    "ip": [],
     "domain": [
       "geosite:category-porn"
     ],
-    "enabled": false
+    "enabled": true
   },
   {
+    "id": "4761125426802170508",
     "inboundTag": [
+      "socks",
       "http"
     ],
     "outboundTag": "direct",
@@ -19,44 +23,54 @@
     "enabled": true
   },
   {
+    "id": "4993286899925527363",
     "inboundTag": [
+      "socks",
       "http"
     ],
     "outboundTag": "direct",
     "domain": [
       "geosite:category-games@cn",
-      "domain:edu.cn",
-      "domain:steamcontent.com"
+      "domain:steamcontent.com",
+      "geosite:tld-cn"
     ],
     "enabled": true
   },
   {
+    "id": "4796671125186214044",
     "inboundTag": [
+      "socks",
       "http"
     ],
     "outboundTag": "proxy",
     "domain": [
-      "geosite:greatfire",
-      "geosite:gfw",
-      "geosite:steam",
-      "geosite:google",
       "domain:lcc.edu",
-      "domain:vmware.com"
+      "domain:vmware.com",
+      "domain:xeton.dev",
+      "geosite:gfw",
+      "geosite:google",
+      "geosite:greatfire",
+      "geosite:steam",
+      "domain:imageglass.org"
     ],
     "enabled": true
   },
   {
+    "id": "5645315555236124033",
     "port": "0-65535",
     "inboundTag": [
+      "socks",
       "http"
     ],
     "outboundTag": "direct",
     "enabled": true
   },
   {
+    "id": "4663015295222135958",
     "port": "0-65535",
     "inboundTag": [
-      "socks"
+      "socks2",
+      "http2"
     ],
     "outboundTag": "proxy",
     "enabled": true
